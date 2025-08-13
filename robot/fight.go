@@ -24,6 +24,7 @@ func Arena(listRobots *[]Robot) {
 			clearterminal.Clear()
 			champ, ok := ChampionExists(listRobots)
 			if ok {
+
 				fmt.Printf("Чемпион определен и это - %s\n", champ.Name)
 				time.Sleep(2 * time.Second)
 				clearterminal.Clear()
